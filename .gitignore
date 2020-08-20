@@ -1,3 +1,7 @@
+##
+.examples.yaml
+
+##
 *.gem
 *.rbc
 /.config
