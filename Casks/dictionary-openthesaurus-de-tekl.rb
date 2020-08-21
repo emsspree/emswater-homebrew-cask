@@ -3,13 +3,8 @@ cask "dictionary-openthesaurus-de-tekl" do
   sha256 :no_check
 
   url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest/download/OpenThesaurus_Deutsch_dictionaryfile.zip"
-  name "OpenThesaurus"
-  name "OpenThesaurus-Deutsch"
-  name "OpenThesaurus Deutsch"
-  name "OpenThesaurus German"
   name "OpenThesaurus Deutsch (German)"
-# name "dictionary-openthesaurus-de-tekl"
-  desc "German thesaurus based on www.openthesaurus.de for Apple’s Dictionary application. By Wolfgang Reszel and Daniel Naber."
+  desc "Extends Apple’s Dictionary application with a German thesaurus based on data from www.openthesaurus.de"
   homepage "https://github.com/Tekl/openthesaurus-deutsch"
 
   ## install
@@ -19,7 +14,7 @@ cask "dictionary-openthesaurus-de-tekl" do
     FileUtils.killall "com.apple.DictionaryServiceHelper"
     FileUtils.killall "Dictionary"
   end
-  
+
   ## uninstall
 # uninstall pkgutil "de.tekl.dictionary.openThesaurusDeutsch"
 # uninstall delete  . . .
