@@ -9,7 +9,7 @@ cask "dictionary-openthesaurus-de-tekl" do
   name "dictionary-plugin-openthesaurus-de-tekl"
   desc "OpenThesaurus.de plugin by Tekl for Apple’s Dictionary.app"
   homepage "https://github.com/Tekl/openthesaurus-deutsch"
-  license "GPL-3.0"
+# license "GPL-3.0"
 
   ## install
   dictionary "OpenThesaurus Deutsch.dictionary"
