@@ -1,6 +1,7 @@
 ---
 
 - /Aliases
+    it’s just a symlink
 
 - /Casks
     https://github.com/Homebrew/homebrew-cask/blob/master/Casks/dictcc-en-de-dictionary-plugin.rb
