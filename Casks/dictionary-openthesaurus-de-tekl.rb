@@ -1,4 +1,4 @@
-cask "dictionary-plugin-openthesaurus-de-tekl" do
+cask "dictionary-openthesaurus-de-tekl" do
   version :latest
   sha256 :no_check
 
@@ -25,7 +25,8 @@ cask "dictionary-plugin-openthesaurus-de-tekl" do
 # uninstall delete: "#{staged_path}/#{token}"
 
   caveats <<~EOS
-    You may need to active this plugin in Dictionary’s preferences.
+    You may need to activate this plugin
+    in Dictionary’s preferences.
   EOS
 
 end
