@@ -3,13 +3,14 @@ cask "dictionary-openthesaurus-de-tekl" do
   sha256 :no_check
 
   url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest/download/OpenThesaurus_Deutsch_dictionaryfile.zip"
+  name "OpenThesaurus"
+  name "OpenThesaurus-Deutsch"
   name "OpenThesaurus Deutsch"
   name "OpenThesaurus German"
   name "OpenThesaurus Deutsch (German)"
-  name "dictionary-plugin-openthesaurus-de-tekl"
-  desc "OpenThesaurus.de plugin by Tekl for Apple’s Dictionary.app"
+# name "dictionary-openthesaurus-de-tekl"
+  desc "German thesaurus based on www.openthesaurus.de for Apple’s Dictionary application. By Wolfgang Reszel and Daniel Naber."
   homepage "https://github.com/Tekl/openthesaurus-deutsch"
-# license "GPL-3.0"
 
   ## install
   dictionary "OpenThesaurus Deutsch.dictionary"
