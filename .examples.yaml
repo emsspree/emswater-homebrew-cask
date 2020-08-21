@@ -1,23 +1,24 @@
 ---
 
-- /Aliases
-    it’s just a symlink
+/Aliases
+    - it’s just a symlink
 
-- /Casks
-    https://github.com/Homebrew/homebrew-cask/blob/master/Casks/dictcc-en-de-dictionary-plugin.rb
+/Casks
+    - https://github.com/Homebrew/homebrew-cask/blob/master/Casks/dictcc-en-de-dictionary-plugin.rb
 
-- /Formula
-    https://github.com/Homebrew/homebrew-core/blob/master/Formula/youtube-dl.rb
+/Formula
+    - https://github.com/Homebrew/homebrew-core/blob/master/Formula/youtube-dl.rb
+    - https://github.com/petere/homebrew-postgresql/blob/master/postgresql%4014.rb
 
-- /Homebrew
-    https://github.com/brew-stuff/homebrew-emacs/blob/master/Homebrew/emacs.rb
-    https://github.com/brew-stuff/homebrew-emacs/blob/master/Homebrew/emacs_formula.rb
+/Homebrew
+    - https://github.com/brew-stuff/homebrew-emacs/blob/master/Homebrew/emacs.rb
+    - https://github.com/brew-stuff/homebrew-emacs/blob/master/Homebrew/emacs_formula.rb
 
-- /cmd
-    https://github.com/brew-stuff/homebrew-emacs/blob/master/cmd/brew-emacs.rb
+/cmd
+    - https://github.com/brew-stuff/homebrew-emacs/blob/master/cmd/brew-emacs.rb
 
-- /formula_renames.json
-    https://github.com/Homebrew/homebrew-core/blob/master/formula_renames.json
+/formula_renames.json
+    - https://github.com/Homebrew/homebrew-core/blob/master/formula_renames.json
 
-- /tap_migrations.json
-    https://github.com/Homebrew/homebrew-core/blob/master/tap_migrations.json
+/tap_migrations.json
+    - https://github.com/Homebrew/homebrew-core/blob/master/tap_migrations.json
