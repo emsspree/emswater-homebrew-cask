@@ -6,25 +6,26 @@ cask "dictionary-plugin-openthesaurus-de-tekl" do
   name "OpenThesaurus Deutsch"
   name "OpenThesaurus German"
   name "OpenThesaurus Deutsch (German)"
+  name "dictionary-plugin-openthesaurus-de-tekl"
   desc "OpenThesaurus.de plugin by Tekl for Apple’s Dictionary.app"
   homepage "https://github.com/Tekl/openthesaurus-deutsch"
-  license :commercial
+  license "GPL-3.0"
 
   ## install
   dictionary "OpenThesaurus Deutsch.dictionary"
   postflight do
-    FileUtils.killall DictionaryPanel
-    FileUtils.killall com.apple.DictionaryServiceHelper 
-    FileUtils.killall Dictionary
+    FileUtils.killall "DictionaryPanel"
+    FileUtils.killall "com.apple.DictionaryServiceHelper"
+    FileUtils.killall "Dictionary"
   end
-  caveats <<~EOS
-    You need to run LibreOffice at least once before installing
-    language pack to avoid app verification error.
-  EOS
-
+  
   ## uninstall
 # uninstall pkgutil "de.tekl.dictionary.openThesaurusDeutsch"
 # uninstall delete  . . .
 # uninstall delete: "#{staged_path}/#{token}"
+
+  caveats <<~EOS
+    You may need to active this plugin in Dictionary’s preferences.
+  EOS
 
 end
