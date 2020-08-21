@@ -9,11 +9,11 @@ cask "dictionary-openthesaurus-de-tekl" do
 
   ## install
   dictionary "OpenThesaurus Deutsch.dictionary"
-  postflight do
-    FileUtils.killall "DictionaryPanel"
-    FileUtils.killall "com.apple.DictionaryServiceHelper"
-    FileUtils.killall "Dictionary"
-  end
+  # postflight do
+  #   FileUtils.killall "DictionaryPanel"
+  #   FileUtils.killall "com.apple.DictionaryServiceHelper"
+  #   FileUtils.killall "Dictionary"
+  # end
 
   ## uninstall
 # uninstall pkgutil "de.tekl.dictionary.openThesaurusDeutsch"
