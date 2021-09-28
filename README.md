@@ -5,5 +5,5 @@ This is a tap for [Homebrew](https://brew.sh/). Homebrew needs to be installed t
 To add this tap, run:
 
 ```
-brew tap emsspree/water
+brew tap emsspree/homebrew-water
 ```
