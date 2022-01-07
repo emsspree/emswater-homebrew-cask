@@ -6,7 +6,6 @@ cask 'dictionary-openthesaurus-de-tekl' do
     verified: "github.com/Tekl/openthesaurus-deutsch/"
   name 'OpenThesaurus Deutsch'
   desc 'OpenThesaurus in Deutsch (www.openthesaurus.de) von Tekl für die Lexikon-Anwendung. Extends macOS’ Dictionary application with a German thesaurus based on data from www.openthesaurus.de'
-  license "GPL-3.0"
   homepage 'https://tekl.de'
 
   livecheck do
@@ -31,7 +30,6 @@ cask 'dictionary-openthesaurus-de-tekl' do
 
 
   language "de" do
-    "de"
     caveats <<~EOS
       OpenThesaurus Deutsch wird für alle Benutzer installiert.
       Wenn es nur für den aktuellen Benutzer installiert werden soll, führe folgendes aus:
@@ -39,9 +37,9 @@ cask 'dictionary-openthesaurus-de-tekl' do
 
       Eventuell muss OpenThesaurus Deutsch in den Lexikon-Einstellungen aktiviert werden.
     EOS
+    "de"
   end
   language "en", default: true do
-    "en"
     caveats <<~EOS
       Installing OpenThesaurus Deutsch for all users.
       If it should be installed only for the current user, run:
@@ -49,6 +47,7 @@ cask 'dictionary-openthesaurus-de-tekl' do
 
       You may need to activate OpenThesaurus Deutsch in Dictionary’s preferences.
     EOS
+    "en"
   end
 
 
