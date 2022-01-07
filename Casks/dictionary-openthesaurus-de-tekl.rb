@@ -18,11 +18,26 @@ cask 'dictionary-openthesaurus-de-tekl' do
   # Moved for consistency: By default Installer.pkg installs it for all users; notice in caveats.
   dictionary 'OpenThesaurus Deutsch.dictionary', target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
 
-  caveats <<~EOS
-    Installing OpenThesaurus Deutsch for all users. If it should be installed only for the current user, run:
-      mv /Library/Dictionaries/OpenThesaurus\ Deutsch.dictionary ~/Library/Dictionaries/
+  language "de" do
+    # "de_DE"
+    caveats <<~EOS
+      OpenThesaurus Deutsch wird für alle Benutzer installiert.
+      Wenn es nur für den aktuellen Benutzer installiert werden soll, führe folgendes aus:
+        mv /Library/Dictionaries/OpenThesaurus\ Deutsch.dictionary ~/Library/Dictionaries/
 
-    You may need to activate this plugin (reference source) in Dictionary’s preferences.
-  EOS
+      Eventuell muss OpenThesaurus Deutsch in den Lexikon-Einstellungen aktiviert werden.
+    EOS
+  end
+
+  language "en", default: true do
+    # "en_US"
+    caveats <<~EOS
+      Installing OpenThesaurus Deutsch for all users.
+      If it should be installed only for the current user, run:
+        mv /Library/Dictionaries/OpenThesaurus\ Deutsch.dictionary ~/Library/Dictionaries/
+
+      You may need to activate OpenThesaurus Deutsch in Dictionary’s preferences.
+    EOS
+  end
 
 end
