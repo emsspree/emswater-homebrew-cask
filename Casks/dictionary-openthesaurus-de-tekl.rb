@@ -2,6 +2,40 @@ cask "dictionary-openthesaurus-de-tekl" do
   version "2021.12.09"
   sha256 :no_check
 
+  module Mo
+    class << self; attr_accessor :var; end
+  end
+
+  Mo.var = 'this is saved at @var'
+
+  # MyModule.var    
+  # => "this is saved at @var"
+
+  # module Utils
+  #   def self.arbitrary_method
+  #     ...
+  #   end
+  # end
+
+  language "de" do
+    "de"
+  end
+
+  language "en", default: true do
+    "en"
+  end
+
+  #
+  #
+
+  # if MacOS.version <= :sierra
+  # # ...
+  # elsif MacOS.version <= :mojave
+  # # ...
+  # else
+  # # ...
+  # end
+
   # language "de" do
   #   caveats <<~EOS
   #     OpenThesaurus Deutsch wird für alle Benutzer installiert.
@@ -12,6 +46,7 @@ cask "dictionary-openthesaurus-de-tekl" do
   #   EOS
   #   "de"
   # end
+
   # language "en", default: true do
   #   caveats <<~EOS
   #     Installing OpenThesaurus Deutsch for all users.
@@ -23,10 +58,10 @@ cask "dictionary-openthesaurus-de-tekl" do
   #   "en"
   # end
 
-  url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip",
-      verified: "github.com/Tekl/openthesaurus-deutsch/"
   name "OpenThesaurus Deutsch"
   desc "German thesaurus: OpenThesaurus.de for Dictionary.app"
+  url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip",
+      verified: "github.com/Tekl/openthesaurus-deutsch/"
   homepage "https://tekl.de/"
 
   livecheck do
@@ -41,6 +76,7 @@ cask "dictionary-openthesaurus-de-tekl" do
   dictionary "OpenThesaurus Deutsch.dictionary", target: "/Library/Dictionaries/OpenThesaurus Deutsch.dictionary"
 
   caveats <<~EOS
+    Var: #{Mo.var}
     Installing OpenThesaurus Deutsch for all users.
     If it should be installed only for the current user, run:
       mv /Library/Dictionaries/OpenThesaurus\ Deutsch.dictionary ~/Library/Dictionaries/
