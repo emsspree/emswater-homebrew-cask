@@ -5,19 +5,19 @@ cask "dictionary-openthesaurus-de-tekl" do
 
  #url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest/download/OpenThesaurus_Deutsch_dictionaryfile.zip"
   url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip"
-  name "OpenThesaurus Deutsch"
-  desc "OpenThesaurus in Deutsch (www.openthesaurus.de) von Tekl für die Lexikon-Anwendung von macOS. Extends macOS’ Dictionary application with a German thesaurus based on data from www.openthesaurus.de"
+  name 'OpenThesaurus Deutsch'
+  desc 'OpenThesaurus in Deutsch (www.openthesaurus.de) von Tekl für die Lexikon-Anwendung. Extends macOS’ Dictionary application with a German thesaurus based on data from www.openthesaurus.de'
   homepage "https://github.com/Tekl/openthesaurus-deutsch"
 
   livecheck do
-    url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest"
+    url 'https://github.com/Tekl/openthesaurus-deutsch/releases/latest'
     strategy :page_match do |page|
       page.scan(%r{href=.*?tags/v?(\d+(?:\.\d+)+)}i)
           .map { |matches| "#{matches[0]}" }
     end
   end
 
-  dictionary "OpenThesaurus Deutsch.dictionary"
+  dictionary 'OpenThesaurus Deutsch.dictionary' #, target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
 
   caveats <<~EOS
     Eventuell muss diese Erweiterung (Referenzquelle) in den Lexikon-Einstellungen aktiviert werden.
