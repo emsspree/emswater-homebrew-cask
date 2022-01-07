@@ -2,11 +2,10 @@ cask "dictionary-openthesaurus-de-tekl" do
   version "2021.12.09"
   sha256 :no_check
 
-  url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip",
-      verified: "github.com/Tekl/openthesaurus-deutsch/"
+  url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip", verified: "github.com/Tekl/openthesaurus-deutsch/"
   name "OpenThesaurus Deutsch"
   desc "Extends Dictionary.app with a German thesaurus based on data from www.openthesaurus.de"
-  homepage "https://tekl.de/"
+  homepage "https://tekl.de"
 
   livecheck do
     url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest"
