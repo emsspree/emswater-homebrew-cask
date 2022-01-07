@@ -9,7 +9,6 @@ cask 'dictionary-openthesaurus-de-tekl' do
  #homepage 'https://github.com/Tekl/openthesaurus-deutsch'
   homepage 'https://tekl.de'
 
-
   livecheck do
     url 'https://github.com/Tekl/openthesaurus-deutsch/releases/latest'
     strategy :page_match do |page|
@@ -19,12 +18,16 @@ cask 'dictionary-openthesaurus-de-tekl' do
   end
 
 
-  def install
+
+
+  preflight do
     system 'echo', '"Hallo Welt"'
   end
 
   # Moved for consistency: By default Installer.pkg installs it for all users; notice in caveats.
   dictionary 'OpenThesaurus Deutsch.dictionary', target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
+
+
 
 
   language "de" do
