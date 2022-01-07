@@ -19,9 +19,9 @@ cask 'dictionary-openthesaurus-de-tekl' do
   end
 
 
-  #def install
-  #system 'echo', '"Hallo Welt"'
-  #end
+  def install
+    system 'echo', '"Hallo Welt"'
+  end
 
   # Moved for consistency: By default Installer.pkg installs it for all users; notice in caveats.
   dictionary 'OpenThesaurus Deutsch.dictionary', target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
