@@ -1,5 +1,6 @@
 cask "dictionary-openthesaurus-de-tekl" do
-  version :latest
+  # version :latest
+  version :2021.12.08
   sha256 :no_check
 
   url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest/download/OpenThesaurus_Deutsch_dictionaryfile.zip"
