@@ -17,12 +17,19 @@ cask "dictionary-openthesaurus-de-tekl" do
   end
 
   preflight do
-    system "echo", "'Hallo Welt'"
+    # system "echo", "'Hallo Welt'"
+    system_command "/usr/bin/open", args: ["-b", "com.apple.TextEdit"]
   end
 
-  # Moved for consistency: By default Installer.pkg installs it for all users; notice in caveats.
+  ### Moved for consistency: By default Installer.pkg installs it for all users.
   dictionary "OpenThesaurus Deutsch.dictionary", target: "/Library/Dictionaries/OpenThesaurus Deutsch.dictionary"
 
+  postflight do
+    # system_command "/usr/bin/defaults", args: ["write", "edu.upenn.cis.Unison", "CheckCltool", "-bool", "false"]
+    system_command "/usr/bin/open", args: ["-b", "com.apple.Dictionary"]
+  end
+
+  ### caveats
   language "de" do
     caveats <<~EOS
       OpenThesaurus Deutsch wird für alle Benutzer installiert.
@@ -43,4 +50,5 @@ cask "dictionary-openthesaurus-de-tekl" do
     EOS
     "en"
   end
+  ### caveats/
 end
