@@ -15,6 +15,8 @@ cask 'dictionary-openthesaurus-de-tekl' do
     end
   end
 
+  system 'echo', '"Hallo Welt"'
+
   # Moved for consistency: By default Installer.pkg installs it for all users; notice in caveats.
   dictionary 'OpenThesaurus Deutsch.dictionary', target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
 
@@ -28,7 +30,6 @@ cask 'dictionary-openthesaurus-de-tekl' do
       Eventuell muss OpenThesaurus Deutsch in den Lexikon-Einstellungen aktiviert werden.
     EOS
   end
-
   language "en", default: true do
     # "en_US"
     caveats <<~EOS
