@@ -31,7 +31,7 @@ cask 'dictionary-openthesaurus-de-tekl' do
 
 
   language "de" do
-    # "de_DE"
+    "de_DE"
     caveats <<~EOS
       OpenThesaurus Deutsch wird für alle Benutzer installiert.
       Wenn es nur für den aktuellen Benutzer installiert werden soll, führe folgendes aus:
@@ -41,7 +41,7 @@ cask 'dictionary-openthesaurus-de-tekl' do
     EOS
   end
   language "en", default: true do
-    # "en_US"
+    "en_US"
     caveats <<~EOS
       Installing OpenThesaurus Deutsch for all users.
       If it should be installed only for the current user, run:
