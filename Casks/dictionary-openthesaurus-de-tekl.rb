@@ -19,8 +19,7 @@ cask 'dictionary-openthesaurus-de-tekl' do
   dictionary 'OpenThesaurus Deutsch.dictionary', target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
 
   caveats <<~EOS
-    OpenThesaurus Deutsch has been installed for all users.
-    If it should only be installed for the current user, run:
+    Installing OpenThesaurus Deutsch for all users. If it should be installed only for the current user, run:
       mv /Library/Dictionaries/OpenThesaurus\ Deutsch.dictionary ~/Library/Dictionaries/
 
     You may need to activate this plugin (reference source) in Dictionary’s preferences.
