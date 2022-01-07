@@ -17,7 +17,7 @@ cask "dictionary-openthesaurus-de-tekl" do
   end
 
   preflight do
-    system "echo", '"Hallo Welt"'
+    system "echo", "'Hallo Welt'"
   end
 
   # Moved for consistency: By default Installer.pkg installs it for all users; notice in caveats.
