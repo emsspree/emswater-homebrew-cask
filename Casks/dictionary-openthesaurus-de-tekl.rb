@@ -17,7 +17,7 @@ cask 'dictionary-openthesaurus-de-tekl' do
     end
   end
 
-  dictionary 'OpenThesaurus Deutsch.dictionary' #, target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
+  dictionary 'OpenThesaurus Deutsch.dictionary', target: '/Library/Dictionaries/OpenThesaurus Deutsch.dictionary'
 
   caveats <<~EOS
     Eventuell muss diese Erweiterung (Referenzquelle) in den Lexikon-Einstellungen aktiviert werden.
