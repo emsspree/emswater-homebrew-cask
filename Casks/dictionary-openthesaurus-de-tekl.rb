@@ -25,7 +25,7 @@ cask "dictionary-openthesaurus-de-tekl" do
     "en"
   end
 
-  #
+  # …
   #
 
   # if MacOS.version <= :sierra
