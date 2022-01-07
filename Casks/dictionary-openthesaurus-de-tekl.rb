@@ -2,31 +2,22 @@ cask "dictionary-openthesaurus-de-tekl" do
   version "2021.12.09"
   sha256 :no_check
 
-  module Mo
-    class << self; attr_accessor :var; end
-  end
+  # module VarModul
+  #   @@caveat1 = "Englischer Text"
 
-  Mo.var = 'this is saved at @var'
+  #   def self.setCaveat1(value)
+  #     @@caveat = value
+  #   end  
 
-  # MyModule.var    
-  # => "this is saved at @var"
+  #   def self.caveat1
+  #     @@caveat1
+  #   end  
+  # end  
 
-  # module Utils
-  #   def self.arbitrary_method
-  #     ...
-  #   end
-  # end
+  # VarModul.name                      # ausgeben
+  # VarModul.setName("Deutscher Text") # neu setzen
+  # VarModul.name                      # ausgeben
 
-  language "de" do
-    "de"
-  end
-
-  language "en", default: true do
-    "en"
-  end
-
-  # …
-  #
 
   # if MacOS.version <= :sierra
   # # ...
@@ -76,7 +67,6 @@ cask "dictionary-openthesaurus-de-tekl" do
   dictionary "OpenThesaurus Deutsch.dictionary", target: "/Library/Dictionaries/OpenThesaurus Deutsch.dictionary"
 
   caveats <<~EOS
-    Var: #{Mo.var}
     Installing OpenThesaurus Deutsch for all users.
     If it should be installed only for the current user, run:
       mv /Library/Dictionaries/OpenThesaurus\ Deutsch.dictionary ~/Library/Dictionaries/
