@@ -2,12 +2,23 @@ cask "dictionary-openthesaurus-de-tekl" do
   version "2021.12.09"
   sha256 :no_check
 
-  # postflight do
-  # system_command "/usr/bin/defaults", args: ["write", "edu.upenn.cis.Unison", "CheckCltool", "-bool", "false"]
-  # system_command "/usr/bin/open", args: ["-b", "com.apple.Dictionary"]
-  # end
+  url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip",
+      verified: "github.com/Tekl/openthesaurus-deutsch/"
+  name "OpenThesaurus Deutsch"
+  desc "Extends Dictionary.app with a German thesaurus based on data from www.openthesaurus.de"
+  homepage "https://tekl.de/"
 
-  ### caveats
+  livecheck do
+    url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest"
+    strategy :page_match do |page|
+      page.scan(%r{href=.*?tags/v?(\d+(?:\.\d+)+)}i)
+          .map { |matches| (matches[0]).to_s }
+    end
+  end
+
+  ### Moved for consistency: By default Installer.pkg installs it for all users.
+  dictionary "OpenThesaurus Deutsch.dictionary", target: "/Library/Dictionaries/OpenThesaurus Deutsch.dictionary"
+
   language "de" do
     caveats <<~EOS
       OpenThesaurus Deutsch wird für alle Benutzer installiert.
@@ -28,28 +39,4 @@ cask "dictionary-openthesaurus-de-tekl" do
     EOS
     "en"
   end
-
-  url "https://github.com/Tekl/openthesaurus-deutsch/releases/download/v#{version}/OpenThesaurus_Deutsch_dictionaryfile.zip",
-      verified: "github.com/Tekl/openthesaurus-deutsch/"
-  name "OpenThesaurus Deutsch"
-  desc "OpenThesaurus in Deutsch (www.openthesaurus.de) von Tekl für die Lexikon-Anwendung.
-Extends macOS’ Dictionary application with a German thesaurus based on data from www.openthesaurus.de"
-  homepage "https://tekl.de/"
-
-  livecheck do
-    url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest"
-    strategy :page_match do |page|
-      page.scan(%r{href=.*?tags/v?(\d+(?:\.\d+)+)}i)
-          .map { |matches| (matches[0]).to_s }
-    end
-  end
-
-  # preflight do
-  # system "echo", "'Hallo Welt'"
-  # system_command "/usr/bin/open", args: ["-b", "com.apple.TextEdit"]
-  # end
-
-  ### Moved for consistency: By default Installer.pkg installs it for all users.
-  dictionary "OpenThesaurus Deutsch.dictionary",
-             target: "/Library/Dictionaries/OpenThesaurus Deutsch.dictionary"
 end
