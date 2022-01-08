@@ -28,8 +28,6 @@ To add this, run:
 
 ### OpenThesaurus Deutsch ([www.openthesaurus.de](https://www.openthesaurus.de/))
 
-https://github.com/Tekl/openthesaurus-deutsch/blob/master/images/manual%20installation/dict-inst-3cursor.png
-
 Dictionary.app plugin by Wolfgang Reszel (Tekl).
 
 [![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
@@ -44,6 +42,8 @@ Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’
 + ✅&#x2000;`brew upgrade` works now with version check.
 + 🉑&#x2000;Needs detail improvements; initial installation lacks convenience.
 + 📣&#x2000;Please test and give feedback.
+
+<img src="https://github.com/Tekl/openthesaurus-deutsch/raw/master/images/manual%20installation/dict-inst-3cursor.png" >
 
 ---
 
