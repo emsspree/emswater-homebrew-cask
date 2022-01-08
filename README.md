@@ -1,9 +1,11 @@
-# 🚰 Water for Homebrew
+<img src="https://docs.brew.sh/assets/img/apple-touch-icon.png" align="right"><!--img src="https://docs.brew.sh/assets/img/homebrew-256x256.png"-->
 
-**A Tap for Homebrew&#x2000;🍺 &#x2000;The missing package manager for macOS (or Linux).**
+🚰 Water for Homebrew
+=====================
+
+**A Tap for 🍺 &#x2000;Homebrew,<br>the missing package manager for macOS (or Linux).**
 
 [![brew.sh](https://img.shields.io/badge/WWW-brew.sh-yellow?logo=homebrew&logoColor=white&labelColor=gray)](https://brew.sh/)
-[![brew.sh](https://simpleicons.org/icons/homebrew.svg)](https://brew.sh/)
 [![github.com/Homebrew](https://img.shields.io/badge/-Homebrew%2F…-yellow?logo=github&labelColor=gray)](https://github.com/Homebrew)
 
 ## About This Tap
