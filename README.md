@@ -1,8 +1,17 @@
-# Water for Homebrew
+# 🚰 Water for Homebrew
 
-A [Tap](https://docs.brew.sh/Taps) for [Homebrew](https://brew.sh/).
+**A Tap for Homebrew&#x2000;🍺 &#x2000;The missing package manager for macOS (or Linux).**
 
+[![brew.sh](https://img.shields.io/badge/-brew.sh-yellow?logo=homebrew&logoColor=white&labelColor=gray)](https://brew.sh/)
+[![github.com/Homebrew](https://img.shields.io/badge/-Homebrew-yellow?logo=github&labelColor=gray)](https://github.com/Homebrew)
 
+## About This Tap
+
+This [Tap](https://docs.brew.sh/Taps) is still pretty dry.
+
+I don't plan to offer alternatives to existing Homebrew packages. If I create formulas and casks that are also offered by another third party, it is pure coincidence. In such a case, I would very likely be inclined to merge to achieve the best possible solution.
+
+The packages that I will offer here are currently not interesting enough for inclusion in [Homebrew Core](https://github.com/Homebrew/homebrew-core) or [Homebrew Cask](https://github.com/Homebrew/homebrew-cask). Nevertheless, I consciously choose longer names than necessary to avoid installation conflicts or other problems in case the packages are taken over once.
 
 ## Add This Tap
 
@@ -10,30 +19,70 @@ To add this, run:
 
     brew tap emsspree/homebrew-water
 
-
-
 ## Casks In This Tap
 
+<!---->
 
-+   [OpenThesaurus Deutsch](https://github.com/Tekl/openthesaurus-deutsch) by Tekl:<br>
-    www.openthesaurus.de Dictionary.app plugin
+### OpenThesaurus Deutsch <small style="font-weight:300">([www.openthesaurus.de](https://www.openthesaurus.de/))</small>
 
-        brew install --cask emsspree/water/dictionary-openthesaurus-de-tekl
+Dictionary.app plugin by Wolfgang Reszel (Tekl).
 
+[![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
+[![GitHub](https://img.shields.io/badge/-Tekl%2Fopenthesaurus--deutsch-ddf?logo=github&labelColor=gray)](https://github.com/Tekl/openthesaurus-deutsch)
+[![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Tekl/openthesaurus-deutsch/blob/master/LICENSE)
 
-<!--
-+   [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) by Diolinux:<br>
-    Photoshop look and feel for GIMP.
+🇩🇪&nbsp;Macht [OpenThesaurus.de](https://www.openthesaurus.de/) zu einer Referenzquelle fürs macOS-[Lexikon](https://en.wikipedia.org/wiki/Dictionary_(software)).
+🇺🇸&nbsp;Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’&nbsp;[Dictionary](https://en.wikipedia.org/wiki/Dictionary_(software)).
 
-        brew install --cask emsspree/water/photogimp
--->
+    brew install dictionary-openthesaurus-de-tekl
 
++ ✅&#x2000;`brew upgrade` works now with version check.
++ 🉑&#x2000;Needs detail improvements; initial installation lacks convenience.
++ 📣&#x2000;Please test and give feedback.
 
+---
 
+<!---->
 
+### PhotoGIMP
+
+Photoshop look and feel for GIMP, assembled by Dionatan Simioni (Diolinux).
+
+[![Diolinux](https://img.shields.io/badge/WWW-Diolinux-9cf?labelColor=gray)](http://www.diolinux.com.br/)
+[![GitHub](https://img.shields.io/badge/-Diolinux%2FPhotoGIMP-ddf?logo=github&labelColor=gray)](https://github.com/Diolinux/PhotoGIMP)
+[![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Diolinux/PhotoGIMP/blob/master/LICENSE)
+
+    …
+
+<!-- brew install --cask photogimp -->
+
++ 🚼&#x2000;Planned.
+
+---
+
+<!---->
+
+### A Better Installer for LibreOffice Language Packs on macOS
+
+… [LibreOffice](https://www.libreoffice.org/) … The Document Foundation
+
+    brew install --cask libreoffice-language-pack-USAIN
+        ultraschnelle        automatische installation
+        unglaublich schnelle automatische installation
+
+[![GitHub](https://img.shields.io/badge/-emsspree%2F!!!!!-9cf?logo=github&labelColor=gray)](https://github.com/emsspree/!!!!!)
+[![GPL 3.0](https://img.shields.io/badge/GPL-!!!!!3.0-9d5)](https://github.com/emsspree/!!!!!/blob/master/LICENSE)
+
+    …
+
++ 🚼&#x2000;Planned.
+
+---
+<!---->
+<!---->
 
 ## FAQ
 
 Why “Water”? Isn't that pretty presumptuous?
 
--   My username consists of the names of two rivers, [Ems](https://en.wikipedia.org/wiki/Ems_(river)) and [Spree](https://en.wikipedia.org/wiki/Spree_(river)). I imagined it was funny somehow.
++ My username consists of the names of two rivers, [Ems](https://en.wikipedia.org/wiki/Ems_(river)) and [Spree](https://en.wikipedia.org/wiki/Spree_(river)). I imagined it was funny somehow.
