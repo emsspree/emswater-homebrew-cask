@@ -3,7 +3,7 @@
 🚰 Water for Homebrew
 =====================
 
-**A Tap for 🍺 &#x2000;Homebrew,<br>the missing package manager for macOS (or Linux).**
+**A Tap for 🍺 &#x2000;Homebrew, the missing package manager for macOS (or Linux).**
 
 [![brew.sh](https://img.shields.io/badge/WWW-brew.sh-yellow?logo=homebrew&logoColor=white&labelColor=gray)](https://brew.sh/)
 [![github.com/Homebrew](https://img.shields.io/badge/-Homebrew%2F…-yellow?logo=github&labelColor=gray)](https://github.com/Homebrew)
