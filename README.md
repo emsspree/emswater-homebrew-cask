@@ -2,8 +2,9 @@
 
 **A Tap for Homebrew&#x2000;🍺 &#x2000;The missing package manager for macOS (or Linux).**
 
-[![brew.sh](https://img.shields.io/badge/-brew.sh-yellow?logo=homebrew&logoColor=white&labelColor=gray)](https://brew.sh/)
-[![github.com/Homebrew](https://img.shields.io/badge/-Homebrew-yellow?logo=github&labelColor=gray)](https://github.com/Homebrew)
+[![brew.sh](https://img.shields.io/badge/WWW-brew.sh-yellow?logo=homebrew&logoColor=white&labelColor=gray)](https://brew.sh/)
+[![brew.sh](https://simpleicons.org/icons/homebrew.svg)](https://brew.sh/)
+[![github.com/Homebrew](https://img.shields.io/badge/-Homebrew%2F…-yellow?logo=github&labelColor=gray)](https://github.com/Homebrew)
 
 ## About This Tap
 
@@ -78,7 +79,7 @@ Photoshop look and feel for GIMP, assembled by Dionatan Simioni (Diolinux).
 + 🚼&#x2000;Planned.
 
 ---
-<!---->
+
 <!---->
 
 ## FAQ
