@@ -26,16 +26,16 @@ To add this, run:
 
 <!---->
 
-### OpenThesaurus Deutsch <small style="font-weight:300">([www.openthesaurus.de](https://www.openthesaurus.de/))</small>
+### OpenThesaurus Deutsch ([www.openthesaurus.de](https://www.openthesaurus.de/))
 
-Dictionary.app plugin by Wolfgang Reszel (Tekl).
-
+Dictionary.app plugin<br>by Wolfgang Reszel (Tekl).
 [![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
 [![GitHub](https://img.shields.io/badge/-Tekl%2Fopenthesaurus--deutsch-ddf?logo=github&labelColor=gray)](https://github.com/Tekl/openthesaurus-deutsch)
+
 [![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Tekl/openthesaurus-deutsch/blob/master/LICENSE)
 
-🇩🇪&nbsp;Macht [OpenThesaurus.de](https://www.openthesaurus.de/) zu einer Referenzquelle fürs macOS-[Lexikon](https://en.wikipedia.org/wiki/Dictionary_(software)).
-🇺🇸&nbsp;Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’&nbsp;[Dictionary](https://en.wikipedia.org/wiki/Dictionary_(software)).
+Macht [OpenThesaurus.de](https://www.openthesaurus.de/) zu einer Referenzquelle fürs macOS-[Lexikon](https://en.wikipedia.org/wiki/Dictionary_(software)).<br>
+Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’&nbsp;[Dictionary](https://en.wikipedia.org/wiki/Dictionary_(software)).
 
     brew install dictionary-openthesaurus-de-tekl
 
