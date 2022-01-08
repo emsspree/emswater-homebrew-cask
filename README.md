@@ -62,7 +62,7 @@ Photoshop look and feel for GIMP, assembled by Dionatan Simioni (Diolinux).
 ---
 
 <!---->
-
+<!--
 ### Alternative libreoffice-language-pack Installer
 
 Alternative Installer for 
@@ -70,18 +70,18 @@ Alternative Installer for
 A Better Installer for LibreOffice Language Packs on macOS
 
 … [LibreOffice](https://www.libreoffice.org/) … The Document Foundation
-
     …
+-->
 <!--libreoffice-language-pack-USAIN
         ultraschnelle        automatische installation
         unglaublich schnelle automatische installation-->
-
+<!--
 [![GitHub](https://img.shields.io/badge/-emsspree%2F!!!!!-9cf?logo=github&labelColor=gray)](https://github.com/emsspree/!!!!!)
 
 + 🚼&#x2000;Planned.
 
 ---
-
+-->
 <!---->
 
 ## FAQ
