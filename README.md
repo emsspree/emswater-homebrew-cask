@@ -28,11 +28,11 @@ To add this, run:
 
 ### OpenThesaurus Deutsch ([www.openthesaurus.de](https://www.openthesaurus.de/))
 
-Dictionary.app plugin<br>by Wolfgang Reszel (Tekl).
+Dictionary.app plugin by Wolfgang Reszel (Tekl).
+
 [![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
 [![GitHub](https://img.shields.io/badge/-Tekl%2Fopenthesaurus--deutsch-ddf?logo=github&labelColor=gray)](https://github.com/Tekl/openthesaurus-deutsch)
-
-[![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Tekl/openthesaurus-deutsch/blob/master/LICENSE)
+<!--[![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Tekl/openthesaurus-deutsch/blob/master/LICENSE)-->
 
 Macht [OpenThesaurus.de](https://www.openthesaurus.de/) zu einer Referenzquelle fürs macOS-[Lexikon](https://en.wikipedia.org/wiki/Dictionary_(software)).<br>
 Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’&nbsp;[Dictionary](https://en.wikipedia.org/wiki/Dictionary_(software)).
@@ -53,10 +53,8 @@ Photoshop look and feel for GIMP, assembled by Dionatan Simioni (Diolinux).
 
 [![Diolinux](https://img.shields.io/badge/WWW-Diolinux-9cf?labelColor=gray)](http://www.diolinux.com.br/)
 [![GitHub](https://img.shields.io/badge/-Diolinux%2FPhotoGIMP-ddf?logo=github&labelColor=gray)](https://github.com/Diolinux/PhotoGIMP)
-[![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Diolinux/PhotoGIMP/blob/master/LICENSE)
 
     …
-
 <!-- brew install --cask photogimp -->
 
 + 🚼&#x2000;Planned.
@@ -65,18 +63,20 @@ Photoshop look and feel for GIMP, assembled by Dionatan Simioni (Diolinux).
 
 <!---->
 
-### A Better Installer for LibreOffice Language Packs on macOS
+### Alternative libreoffice-language-pack Installer
+
+Alternative Installer for 
+
+A Better Installer for LibreOffice Language Packs on macOS
 
 … [LibreOffice](https://www.libreoffice.org/) … The Document Foundation
 
-    brew install --cask libreoffice-language-pack-USAIN
+    …
+<!--libreoffice-language-pack-USAIN
         ultraschnelle        automatische installation
-        unglaublich schnelle automatische installation
+        unglaublich schnelle automatische installation-->
 
 [![GitHub](https://img.shields.io/badge/-emsspree%2F!!!!!-9cf?logo=github&labelColor=gray)](https://github.com/emsspree/!!!!!)
-[![GPL 3.0](https://img.shields.io/badge/GPL-!!!!!3.0-9d5)](https://github.com/emsspree/!!!!!/blob/master/LICENSE)
-
-    …
 
 + 🚼&#x2000;Planned.
 
