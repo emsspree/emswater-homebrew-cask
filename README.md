@@ -28,6 +28,8 @@ To add this, run:
 
 ### OpenThesaurus Deutsch ([www.openthesaurus.de](https://www.openthesaurus.de/))
 
+https://github.com/Tekl/openthesaurus-deutsch/blob/master/images/manual%20installation/dict-inst-3cursor.png
+
 Dictionary.app plugin by Wolfgang Reszel (Tekl).
 
 [![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
