@@ -28,7 +28,7 @@ To add this, run:
 
 ### OpenThesaurus Deutsch ([www.openthesaurus.de](https://www.openthesaurus.de/))
 
-<img src="https://github.com/Tekl/openthesaurus-deutsch/raw/master/images/manual%20installation/dict-inst-3cursor.png" align="right">
+<!--img src="https://github.com/Tekl/openthesaurus-deutsch/raw/master/images/manual%20installation/dict-inst-3cursor.png" align="right"-->
 
 Dictionary.app plugin by Wolfgang Reszel (Tekl).
 
