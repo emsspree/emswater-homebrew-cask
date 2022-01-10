@@ -24,8 +24,6 @@ The packages that I will offer here are currently not interesting enough for inc
 
 ### OpenThesaurus Deutsch ([www.openthesaurus.de](https://www.openthesaurus.de/))
 
-<!--img src="https://github.com/Tekl/openthesaurus-deutsch/raw/master/images/manual%20installation/dict-inst-3cursor.png" align="right"-->
-
 Dictionary.app plugin by Wolfgang Reszel (Tekl).
 
 [![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
@@ -59,27 +57,6 @@ Photoshop look and feel for GIMP, assembled by Dionatan Simioni (Diolinux).
 
 ---
 
-<!---->
-<!--
-### Alternative libreoffice-language-pack Installer
-
-Alternative Installer for 
-
-A Better Installer for LibreOffice Language Packs on macOS
-
-… [LibreOffice](https://www.libreoffice.org/) … The Document Foundation
-    …
--->
-<!--libreoffice-language-pack-USAIN
-        ultraschnelle        automatische installation
-        unglaublich schnelle automatische installation-->
-<!--
-[![GitHub](https://img.shields.io/badge/-emsspree%2F!!!!!-9cf?logo=github&labelColor=gray)](https://github.com/emsspree/!!!!!)
-
-+ 🚼&#x2000;Planned.
-
----
--->
 <!---->
 
 ## FAQ
