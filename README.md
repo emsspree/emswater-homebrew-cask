@@ -8,19 +8,15 @@
 [![brew.sh](https://img.shields.io/badge/WWW-brew.sh-yellow?logo=homebrew&logoColor=white&labelColor=gray)](https://brew.sh/)
 [![github.com/Homebrew](https://img.shields.io/badge/-Homebrew%2F…-yellow?logo=github&labelColor=gray)](https://github.com/Homebrew)
 
-## About This Tap
+To add this tap, run:
+
+    brew tap emsspree/homebrew-water
 
 This [Tap](https://docs.brew.sh/Taps) is still pretty dry.
 
 I don't plan to offer alternatives to existing Homebrew packages. If I create formulas and casks that are also offered by another third party, it is pure coincidence. In such a case, I would very likely be inclined to merge to achieve the best possible solution.
 
 The packages that I will offer here are currently not interesting enough for inclusion in [Homebrew Core](https://github.com/Homebrew/homebrew-core) or [Homebrew Cask](https://github.com/Homebrew/homebrew-cask). Nevertheless, I consciously choose longer names than necessary to avoid installation conflicts or other problems in case the packages are taken over once.
-
-## Add This Tap
-
-To add this, run:
-
-    brew tap emsspree/homebrew-water
 
 ## Casks In This Tap
 
