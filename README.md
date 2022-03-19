@@ -28,16 +28,15 @@ Dictionary.app plugin by Wolfgang Reszel (Tekl).
 
 [![Tekl](https://img.shields.io/badge/WWW-Tekl-9cf?labelColor=gray)](https://tekl.de/)
 [![GitHub](https://img.shields.io/badge/-Tekl%2Fopenthesaurus--deutsch-ddf?logo=github&labelColor=gray)](https://github.com/Tekl/openthesaurus-deutsch)
-<!--[![GPL 3.0](https://img.shields.io/badge/GPL-3.0-9d5)](https://github.com/Tekl/openthesaurus-deutsch/blob/master/LICENSE)-->
 
 Macht [OpenThesaurus.de](https://www.openthesaurus.de/) zu einer Referenzquelle fürs macOS-Lexikon.<br>
 Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’&nbsp;[Dictionary](https://en.wikipedia.org/wiki/Dictionary_(software)).
 
     brew install dictionary-openthesaurus-de-tekl
 
-+ ✅&#x2000;`brew upgrade` works now with version check.
++ ✅&#x2000;`brew upgrade` works now with version check.<!--
 + 🉑&#x2000;Needs detail improvements; initial installation lacks convenience.
-+ 📣&#x2000;Please test and give feedback.
++ 📣&#x2000;Please test and give feedback.-->
 
 ---
 
