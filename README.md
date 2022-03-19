@@ -34,9 +34,11 @@ Makes&nbsp;OpenThesaurus.de, a German thesaurus, a reference source for macOS’
 
     brew install dictionary-openthesaurus-de-tekl
 
-+ ✅&#x2000;`brew upgrade` works now with version check.<!--
-+ 🉑&#x2000;Needs detail improvements; initial installation lacks convenience.
-+ 📣&#x2000;Please test and give feedback.-->
++ ✅&#x2000;`brew upgrade` works now with version check.
+<!--
+ + 🉑&#x2000;Needs detail improvements; initial installation lacks convenience.
+ + 📣&#x2000;Please test and give feedback.
+-->
 
 ---
 
