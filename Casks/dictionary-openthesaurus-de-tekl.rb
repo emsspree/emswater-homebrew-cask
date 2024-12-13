@@ -1,5 +1,5 @@
 cask "dictionary-openthesaurus-de-tekl" do
-  version "2024.07.15"
+  version "2024.11.09"
   sha256 :no_check
 
   name "OpenThesaurus Deutsch"
